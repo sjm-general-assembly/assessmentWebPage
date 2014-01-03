@@ -21,7 +21,7 @@ h1 {
 h2 {
   text-align: center;
   color: #bbbbbb;
-  margin: 0px 0 70px 0;
+  margin: 0px 0 50px 0;
 }
 p {
   color: rgba(255,255,255,1);
@@ -44,6 +44,10 @@ p {
 table, td {
   border: 1px #000000 solid;
 }
+thead {
+  font-size: 30px;
+  color: #6B6B47;
+}
 
 .table_img {
   width:200px;
@@ -58,12 +62,14 @@ table, td {
   opacity: 1;
 }
 
-.first{
+.first {
   background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
 }
+
 small {
   opacity: 0;
 }
+
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;
